@@ -1,38 +1,83 @@
-.App {
-  text-align: center;
+
+
+* {
+    box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+nav {
+    height: 100px;
+    display: flex;
+    padding: 20px 36px;
+    background-color: #F55A5A;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    font-size: 25px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+.nav--logo {
+    max-width: 60px;
+    padding-right: 15px;
 }
 
-.App-link {
-  color: #61dafb;
+.container {
+    padding: 30px 0px 30px 0px;
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    align-items: center;
+    margin: 0 auto; 
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.content{
+padding: 30px;
+}
+
+a{
+    color: #918E9B;
+    font-size: 15.24px;
+    padding-left: 10px;
+    
+}
+.icon {
+    width: 15px; 
+}
+
+.journeyImg {
+    width: 250px;
+    height: 300px;
+    left: 40px;
+    top: 100px;
+    border-radius: 5px;
+}
+
+.journey-location {
+    letter-spacing: 0.17em;
+    text-transform: uppercase;
+    padding-left: 6px;
+
+}
+
+.journey-date {
+    font-weight: bold;
+    font-size: 15.24px;
+
+}
+
+.content h1 {
+    font-weight: bold;
+font-size: 35px;
+line-height: 30px;
+}
+
+.journey-description {
+    font-size: 15.24px;
+
 }
