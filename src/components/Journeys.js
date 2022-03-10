@@ -11,13 +11,16 @@ export default function Journeys(props) {
                 <span>
                     <img src={icon} alt="icon" className="icon"></img>
                     <span className="journey-location">{props.item.location}</span>
-                    <a href={props.item.googleMaps}>View on Google Maps</a>
+                    <>{props.item.googleMaps &&
+                        < a href={props.item.googleMaps}>View on Google Maps</a>
+                    }
+                    </>
                     <p className="journey-date">{props.item.journey.startDate} - {props.item.journey.endDate}</p>
                     <span><h1>{props.item.title}</h1></span>
                     <p className="journey-description">{props.item.description}</p>
                 </span>
             </div>
-        </div>
+        </div >
 
     )
 }

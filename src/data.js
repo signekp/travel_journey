@@ -4,7 +4,6 @@ export default [
         title: "Trip to Nice",
         location: "France, Nice",
         description: "Yes, we obviously love France... Nice was a blast! First time in the nice hot weather! Found my favorite indian restaurant, so have to come here once a year now... And the best steak restaurant aswell. Went here on my birthday, got a nice gift, the best ever. I didnt like the beach though, to many rocks. Visited Monaco, boyfriend played Casino and won. I wanna live here! Also really liked the McDonalds here...",
-        googleMaps: "https://goo.gl/maps/otEnHbtu5hrKqHma7",
         coverImg: "japan.jpg",
         journey: {
             startDate: "23. juli 2020",

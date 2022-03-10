@@ -6,10 +6,11 @@ import data from './data'
 function App() {
 
   const item = data.map((item) => {
-    return <Journeys
+    return <  Journeys
       key={item.id}
       item={item}
     />
+
   })
 
   return (
